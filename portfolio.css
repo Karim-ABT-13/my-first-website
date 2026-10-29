@@ -51,7 +51,7 @@ ul a {
 }
 
 .description {
-	max-width: 500px;
+	max-width: 500px;  
 	margin: 10 auto;
 }
 
@@ -81,7 +81,7 @@ a {
 }
 
 a:hover {
-	color: black;
+	color: blue;
 }
 
 a.active {
