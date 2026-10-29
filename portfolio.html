@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="portfolio_styl.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<title>First personel portfolio</title>
+</head>
+
+<script>
+	let links = document.querySelectorAll("a");
+
+	links.forEach(link => { 
+		link.onclick = function() {
+			links.forEach(a => a.classList.remove("active")); this.classList.add("active");
+		};
+	});
+</script>
+
+<body>
+
+	<ul>
+		<li><a href="#home" class="active">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#projects">Projects</a></li>
+		<li><a href="#services">Services</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<li><a href="#skills">Skills</a></li>
+
+	</ul>
+
+	<h1>Hi, I'm Alex Talksen</h1>  
+	<h2>Fronted Developer</h2><img src="images/image.jpg" alt="My photo">
+
+	<p class="description"> Turning Ideas Into Digital Experiences. I build modern websites that combine clean design, smooth functionality, and great user experiences. Explore my projects and discover what's possible with code.</p>
+
+
+	<h1 id="about">About</h1>
+	<p class="description"> I'm Alex Talksen, a 15-years-old coder based in Algeria, building in public and sharing everything on X (Twitter). I balance high-school with coding and sports. I'm taking on a 180-days(6 months) challenge to learn HTML, CSS, JS, laying the groundwork to bring my startup idea to life and reach customers.</p>
+
+
+	<h1 id="projects">Projects</h1>
+	<h2>I built many projects:</h2>
+
+	<a
+	href="https://github.com/Karim-ABT-13/Bank-Management-System" target="_blank">Bank-Management-System</a>
+
+	<a href="https://github.com/Karim-ABT-13/HOTEL-MANAGEMENT-SYSTEM." target="_blank">Hotel-Management-System</a>
+
+	<a href="https://github.com/Karim-ABT-13/smart-cashier-system." target="_blank">Smart-Cashier-System</a>
+
+
+	<h1 id="services">Services</h1>
+	<h2>What I Can Do for You?</h2>
+	<p>I creat modern, responsive websites tailored to your needs. From clean designs to functional web page, I focus on building digital experiances that help busnisses establish a strong online presence.</p>
+
+
+	<h1 id="contact">Contact</h1>
+	<h2>Contact Me?</h2>
+	<a href="https://github.com/Karim-ABT-13" target="_blank" rel="noopener noreferrer">
+		<i class="fa-brands fa-github"> Github</i>
+	</a>
+
+	<a href="https://www.instagram.com/zirl.ex/" target="_blank" rel="noopener noreferrer">
+		<i class="fa-brands fa-instagram"> Instagram</i>
+	</a>
+
+
+	<a href="https://www.facebook.com/share/1CMdCWceQv/" target="_blank" rel="noopener noreferrer">
+		<i class="fa-brands fa-facebook"> Facbook</i>
+	</a>
+
+
+
+	<h1 id="skills">Skills</h1>
+	<ul>
+		<li>Python 85%</li>
+		<li>HTML 70%</li>
+		<li>CSS 50%</li>
+	</ul>
+
+</body>
+</html>
