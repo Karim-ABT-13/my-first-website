@@ -169,9 +169,8 @@ button {
 } 
 
 
-/* ==========================
-   MOBILE NAVIGATION
-========================== */
+
+/* MOBILE ONLY */
 
 .menu-toggle {
     display: none;
@@ -179,37 +178,39 @@ button {
 
 @media (max-width: 600px) {
 
-    /* Navigation */
+    body {
+        padding: 12px;
+        overflow-x: hidden;
+    }
+
+    /* Hamburger menu */
 
     .options {
         position: sticky;
-        top: 8px;
+        top: 0;
         z-index: 1000;
     }
 
     .menu-toggle {
         display: block;
-        width: 48px;
+        width: 45px;
         height: 45px;
-        margin: 10px 0 10px auto;
-        padding: 0;
-        border: none;
-        border-radius: 10px;
+        margin: 0 0 12px auto;
+        font-size: 22px;
         background: white;
         color: black;
-        font-size: 21px;
-        cursor: pointer;
+        border: none;
+        border-radius: 8px;
     }
 
     .options ul {
         display: none;
         flex-direction: column;
-        align-items: center;
-        gap: 20px;
+        gap: 15px;
         padding: 20px;
         margin: 0;
-        border-radius: 12px;
         background: white;
+        border-radius: 12px;
     }
 
     .options.menu-open ul {
@@ -217,41 +218,22 @@ button {
     }
 
     .options ul li {
-        width: 100%;
         text-align: center;
     }
-
-    .options ul a {
-        display: block;
-        padding: 8px;
-    }
-
 
     /* Independent sections */
 
     .page-section {
-        min-height: calc(100svh - 75px);
-        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        scroll-margin-top: 75px;
-        padding: 30px 5px;
+        min-height: 85svh;
+        width: 100%;
+        padding: 35px 5px;
+        scroll-margin-top: 60px;
     }
 
-    html {
-        scroll-behavior: smooth;
-    }
-
-
-    /* Home */
-
-    .page-section#home img {
-        display: block;
-        width: 170px;
-        height: 170px;
-        margin: 20px auto;
-    }
+    /* Headings */
 
     h1 {
         font-size: 36px;
@@ -269,6 +251,14 @@ button {
         line-height: 1.7;
     }
 
+    /* Home image */
+
+    #home > img {
+        display: block;
+        width: 170px;
+        height: 170px;
+        margin: 20px auto;
+    }
 
     /* Social */
 
@@ -281,7 +271,6 @@ button {
     .social a {
         margin: 5px;
     }
-
 
     /* Projects */
 
@@ -298,7 +287,6 @@ button {
         width: 100%;
         max-width: 350px;
         min-width: 0;
-        box-sizing: border-box;
     }
 
     .project-image img {
@@ -310,10 +298,8 @@ button {
         object-fit: cover;
     }
 
-    .project-description p,
-    .project-titel h3 {
-        max-width: 100%;
-        margin-left: 0;
+    .project-description p {
+        color: white;
     }
 
     .button-links {
@@ -331,8 +317,5 @@ button {
     .button-links a {
         justify-content: center;
     }
-
-    body {
-        overflow-x: hidden;
-    }
 }
+
