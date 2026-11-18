@@ -1,252 +1,349 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="portfolio.css">
 
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 
     <title>First Personal Portfolio</title>
 </head>
 
 <body>
 
+    <!-- NAVIGATION -->
+
     <div class="options">
+
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
         <ul>
+
             <li><a href="#home" class="active">Home</a></li>
+
             <li><a href="#about">About</a></li>
+
             <li><a href="#projects">Projects</a></li>
+
             <li><a href="#services">Services</a></li>
+
             <li><a href="#contact">Contact</a></li>
+
             <li><a href="#skills">Skills</a></li>
+
         </ul>
+
     </div>
 
-    <main id="home">
 
-        <section class="hero">
+    <!-- HOME SECTION -->
 
-            <div class="hero-content">
+    <section id="home" class="page-section">
 
-                <h1>Hi, I'm Karim</h1>
-                <h2>Frontend Developer</h2>
+        <h1>Hi, I'm Karim</h1>
 
-                <p class="description">
-                    Turning Ideas Into Digital Experiences. I build modern websites that combine clean design, smooth functionality, and great user experiences. Explore my projects and discover what's possible with code.
-                </p>
+        <h2>Frontend Developer</h2>
 
-                <h3>Follow Me</h3>
+        <img src="portfolio.jpg" alt="My photo">
 
-                <div class="social">
+        <p class="description">
+            Turning Ideas Into Digital Experiences. I build modern websites that combine clean design, smooth functionality, and great user experiences. Explore my projects and discover what's possible with code.
+        </p>
 
-                    <a href="https://www.facebook.com/share/1CMdCWceQv/"
-                    target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-facebook"></i> Facebook
-                    </a>
+        <h3>Follow Me</h3>
 
-                    <a href="https://www.instagram.com/zirl.ex/"
-                    target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-instagram"></i> Instagram
-                    </a>
+        <div class="social">
 
-                    <a href="https://github.com/Karim-ABT-13"
-                    target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-github"></i> Github
-                    </a>
-
-                    <a href="https://x.com/Zirlexxx"
-                    target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-x-twitter"></i> X
-                    </a>
-
-                </div>
-
-            </div>
-
-            <img src="portfolio.jpg" alt="My photo" class="profile-image">
-
-        </section>
-
-        <section class="about-section">
-
-            <h1 id="about">About</h1>
-
-            <p class="description">
-                I'm Karim, a 15-years-old coder based in Algeria, building in public and sharing everything on X (Twitter). I balance high-school with coding and sports. I'm taking on a 180-days(6 months) challenge to learn HTML, CSS, JS, laying the groundwork to bring my startup idea to life and reach customers.
-            </p>
-
-        </section>
-
-        <section class="projects-section">
-
-            <h1 id="projects">Projects</h1>
-            <h2>I built many projects:</h2>
-
-            <div class="projects">
-
-                <div class="project-1">
-
-                    <div class="project-image">
-                        <img src="portfolio.jpg" alt="Bank project">
-                    </div>
-
-                    <div class="project-titel">
-                        <h3>Bank-Management-System</h3>
-                    </div>
-
-                    <div class="project-description">
-                        <p>A bank management system buid with python only, he have many options like "Deposit Money", "Withdraw Money", "Transfer Money", etc...</p>
-                    </div>
-
-                    <div class="button-links">
-
-                        <button>
-                            <a href="https://github.com/Karim-ABT-13/Bank-Management-System"
-                            target="_blank" rel="noopener noreferrer">
-                                Bank-Management-System
-                            </a>
-                        </button>
-
-                        <button>
-                            <a href="https://github.com/Karim-ABT-13">
-                                Visit my github?
-                            </a>
-                        </button>
-
-                    </div>
-
-                </div>
-
-
-                <div class="project-2">
-
-                    <div class="project-image">
-                        <img src="portfolio.jpg" alt="Hotel project">
-                    </div>
-
-                    <div class="project-titel">
-                        <h3>Hotel-Management-System</h3>
-                    </div>
-
-                    <div class="project-description">
-                        <p>A hotel management system buid with python only, he have many options like "Book a room", "Cancel booking", "Check-in-guests", etc...</p>
-                    </div>
-
-                    <div class="button-links">
-
-                        <button>
-                            <a href="https://github.com/Karim-ABT-13/HOTEL-MANAGEMENT-SYSTEM."
-                            target="_blank" rel="noopener noreferrer">
-                                Hotel-Management-System
-                            </a>
-                        </button>
-
-                        <button>
-                            <a href="https://github.com/Karim-ABT-13">
-                                Visit my github?
-                            </a>
-                        </button>
-
-                    </div>
-
-                </div>
-
-
-                <div class="project-3">
-
-                    <div class="project-image">
-                        <img src="portfolio.jpg" alt="Supermarket project">
-                    </div>
-
-                    <div class="project-titel">
-                        <h3>Supermarket-Cashier-System</h3>
-                    </div>
-
-                    <div class="project-description">
-                        <p>A supermarket cashier system buid with python only, he have many options like "See products", "Buy Product", "Search for a product", etc...</p>
-                    </div>
-
-                    <div class="button-links">
-
-                        <button>
-                            <a href="https://github.com/Karim-ABT-13/MY-SECOND-2-VERSION-OF-THE-PROJECT-OF-SUPERMARKET---SMART---SYSTEM"
-                            target="_blank" rel="noopener noreferrer">
-                                Supermarket-Cashier-System
-                            </a>
-                        </button>
-
-                        <button>
-                            <a href="https://github.com/Karim-ABT-13">
-                                Visit my github?
-                            </a>
-                        </button>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <section class="services-section">
-
-            <h1 id="services">Services</h1>
-
-            <h2>What I Can Do for You?</h2>
-
-            <p>
-                I creat modern, responsive websites tailored to your needs. From clean designs to functional web page, I focus on building digital experiances that help busnisses establish a strong online presence.
-            </p>
-
-        </section>
-
-
-        <section class="contact-section">
-
-            <h1 id="contact">Contact</h1>
-
-            <h2>Contact Me?</h2>
-
-            <p>
-                Have a project in mind or want to work together?
-                Feel free to contact me!
-            </p>
-
-            <a href="mailto:zirlex.company@gmail.com">
-                <i class="fa-solid fa-envelope"></i> E-mail
+            <a href="https://www.facebook.com/share/1CMdCWceQv/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook"> Facebook</i>
             </a>
 
-        </section>
+            <a href="https://www.instagram.com/zirl.ex/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"> Instagram</i>
+            </a>
+
+            <a href="https://github.com/Karim-ABT-13" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"> Github</i>
+            </a>
+
+            <a href="https://x.com/Zirlexxx" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-x-twitter"> X</i>
+            </a>
+
+        </div>
+
+    </section>
 
 
-        <section class="skills">
+    <!-- ABOUT SECTION -->
 
-            <h1 id="skills">Skills</h1>
+    <section id="about" class="page-section">
+
+        <h1>About</h1>
+
+        <p class="description">
+            I'm Karim, a 15-years-old coder based in Algeria, building in public and sharing everything on X (Twitter). I balance high-school with coding and sports. I'm taking on a 180-days(6 months) challenge to learn HTML, CSS, JS, laying the groundwork to bring my startup idea to life and reach customers.
+        </p>
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+
+    <section id="projects" class="page-section">
+
+        <h1>Projects</h1>
+
+        <h2>I built many projects:</h2>
+
+        <div class="projects">
+
+
+            <!-- PROJECT 1 -->
+
+            <div class="project-1">
+
+                <div class="project-image">
+
+                    <img src="portfolio.jpg" alt="My photo">
+
+                </div>
+
+                <div class="project-titel">
+
+                    <h3>Bank-Management-System</h3>
+
+                </div>
+
+                <div class="project-description">
+
+                    <p>
+                        A bank management system buid with python only, he have many options like "Deposit Money", "Withdraw Money", "Transfer Money", etc...
+                    </p>
+
+                </div>
+
+                <div class="button-links">
+
+                    <button>
+
+                        <a href="https://github.com/Karim-ABT-13/Bank-Management-System" target="_blank" rel="noopener noreferrer">
+                            Bank-Management-System
+                        </a>
+
+                    </button>
+
+                    <button>
+
+                        <a href="https://github.com/Karim-ABT-13">
+                            Visit my github?
+                        </a>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 2 -->
+
+            <div class="project-2">
+
+                <div class="project-image">
+
+                    <img src="portfolio.jpg" alt="My photo">
+
+                </div>
+
+                <div class="project-titel">
+
+                    <h3>Hotel-Management-System</h3>
+
+                </div>
+
+                <div class="project-description">
+
+                    <p>
+                        A hotel management system buid with python only, he have many options like "Book a room", "Cancel booking", "Check-in-guests", etc...
+                    </p>
+
+                </div>
+
+                <div class="button-links">
+
+                    <button>
+
+                        <a href="https://github.com/Karim-ABT-13/HOTEL-MANAGEMENT-SYSTEM." target="_blank" rel="noopener noreferrer">
+                            Hotel-Management-System
+                        </a>
+
+                    </button>
+
+                    <button>
+
+                        <a href="https://github.com/Karim-ABT-13">
+                            Visit my github?
+                        </a>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- PROJECT 3 -->
+
+            <div class="project-3">
+
+                <div class="project-image">
+
+                    <img src="portfolio.jpg" alt="My photo">
+
+                </div>
+
+                <div class="project-titel">
+
+                    <h3>Supermarket-Cashier-System</h3>
+
+                </div>
+
+                <div class="project-description">
+
+                    <p>
+                        A supermarket cashier system buid with python only, he have many options like "See products", "Buy Product", "Search for a product", etc...
+                    </p>
+
+                </div>
+
+                <div class="button-links">
+
+                    <button>
+
+                        <a href="https://github.com/Karim-ABT-13/MY-SECOND-2-VERSION-OF-THE-PROJECT-OF-SUPERMARKET---SMART---SYSTEM" target="_blank" rel="noopener noreferrer">
+                            Supermarket-Cashier-System
+                        </a>
+
+                    </button>
+
+                    <button>
+
+                        <a href="https://github.com/Karim-ABT-13">
+                            Visit my github?
+                        </a>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+
+    <section id="services" class="page-section">
+
+        <h1>Services</h1>
+
+        <h2>What I Can Do for You?</h2>
+
+        <p>
+            I creat modern, responsive websites tailored to your needs. From clean designs to functional web page, I focus on building digital experiances that help busnisses establish a strong online presence.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section id="contact" class="page-section">
+
+        <h1>Contact</h1>
+
+        <h2>Contact Me?</h2>
+
+        <p>
+            Have a project in mind or want to work together?
+            Feel free to contact me!
+        </p>
+
+        <a href="mailto:zirlex.company@gmail.com">
+
+            <i class="fa-solid fa-envelope"> E-mail</i>
+
+        </a>
+
+    </section>
+
+
+    <!-- SKILLS SECTION -->
+
+    <section id="skills" class="page-section">
+
+        <div class="skills">
+
+            <h1>Skills</h1>
 
             <ul>
+
                 <li>Python 85%</li>
+
                 <li>HTML 70%</li>
+
                 <li>CSS 50%</li>
+
             </ul>
 
-        </section>
+        </div>
 
-    </main>
+    </section>
+
+
+    <!-- JAVASCRIPT -->
 
     <script>
+
+        const menu = document.querySelector(".options");
+
+        const toggle = document.querySelector(".menu-toggle");
+
         const links = document.querySelectorAll(".options a");
+
+
+        // Open and close menu
+
+        toggle.addEventListener("click", function() {
+
+            menu.classList.toggle("menu-open");
+
+            const isOpen = menu.classList.contains("menu-open");
+
+            toggle.setAttribute("aria-expanded", isOpen);
+
+            toggle.innerHTML = isOpen
+                ? '<i class="fa-solid fa-xmark"></i>'
+                : '<i class="fa-solid fa-bars"></i>';
+
+        });
+
+
+        // Navigation links
 
         links.forEach(link => {
 
@@ -256,10 +353,18 @@
 
                 this.classList.add("active");
 
+                menu.classList.remove("menu-open");
+
+                toggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+
+                toggle.setAttribute("aria-expanded", "false");
+
             });
 
         });
+
     </script>
 
 </body>
+
 </html>
